@@ -1,0 +1,28 @@
+#about,
+#menu,
+#contact_us {
+    font-size: 25px;
+}
+
+.bio {
+    text-indent: 25px;
+}
+
+sub {
+    font-size: 15px;
+}
+
+@media (max-width: 576px) {
+    * {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 577px) and (max-width:768px) {
+    * {
+        display: block;
+        flex-wrap: nowrap;
+    }
+}
