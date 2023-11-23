@@ -12,6 +12,9 @@ sub {
     font-size: 15px;
 }
 
+#menu {
+    text-align:start;
+}
 @media (max-width: 576px) {
     * {
         display: flex;
